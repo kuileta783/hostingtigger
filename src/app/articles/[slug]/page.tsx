@@ -1,7 +1,7 @@
 import { Header } from '../../../components/Header'
 import { Footer } from '../../../components/Footer'
 import { Badge } from '../../../components/ui/badge'
-import { articles } from '../page' // Assuming articles data is exported from the parent page
+import { articles } from '../../../data/articles'
 import Link from 'next/link'
 import type { InferGetStaticPropsType, GetStaticProps } from 'next'
 
