@@ -5,7 +5,7 @@ import { Card, CardContent } from './ui/card'
 import { Badge } from './ui/badge'
 import { Button } from './ui/button'
 
-interface HostingProvider {
+type Provider = {
   id: number
   name: string
   logo: string
@@ -17,10 +17,11 @@ interface HostingProvider {
   reviews: number
   specialOffer?: string
   trustpilot?: boolean
+  affiliateLink?: string
 }
 
-interface HostingCardProps {
-  provider: HostingProvider
+type HostingCardProps = {
+  provider: Provider
   isEditorChoice?: boolean
 }
 
@@ -128,12 +129,17 @@ export function HostingCard({ provider, isEditorChoice }: HostingCardProps) {
         </div>
 
         <div className="flex flex-wrap gap-3 pt-4 border-t border-gray-100">
-          <Button className="bg-amber-500 hover:bg-amber-600 text-white px-6">
-            Visit Site
-          </Button>
-          <Button variant="outline" size="sm">
-            Read Review
-          </Button>
+          <div className="flex flex-col items-center justify-between gap-4 p-6 bg-gray-50/50 w-full lg:w-48">
+            <div className="text-center">
+              <p className="text-4xl font-bold text-gray-900">{provider.rating}</p>
+              <p className="font-semibold text-gray-700">{provider.ratingLabel}</p>
+            </div>
+            <a href={provider.affiliateLink} target="_blank" rel="noopener noreferrer" className="w-full">
+              <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
+                Visit Site
+              </Button>
+            </a>
+          </div>
         </div>
       </CardContent>
     </Card>

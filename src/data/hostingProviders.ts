@@ -6,6 +6,7 @@ export const hostingProviders = [
     rating: 9.9,
     ratingLabel: "Outstanding",
     specialOffer: "Plans Starting at $1.99/mo",
+    affiliateLink: "https://www.bluehost.com/",
     features: [
       "Powers over 5 million websites worldwide",
       "Free domain & free SSL certificate",
@@ -31,6 +32,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1540425692.svg",
     rating: 9.7,
     ratingLabel: "Great",
+    affiliateLink: "https://www.godaddy.com/",
     features: [
       "Reliable 99.9% uptime guaranteed",
       "Optimized servers, 2x faster",
@@ -57,6 +59,7 @@ export const hostingProviders = [
     rating: 9.5,
     ratingLabel: "Great",
     specialOffer: "Limited-time deal: $2.99/mo + 3 months free",
+    affiliateLink: "https://www.hostinger.com/",
     features: [
       "Limited-time deal: $2.99/mo + 3 months free",
       "24/7 live chat & email support",
@@ -81,6 +84,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1957570600.svg",
     rating: 9.3,
     ratingLabel: "Great",
+    affiliateLink: "https://www.wix.com/",
     features: [
       "Unlimited bandwidth",
       "Build your own web domain",
@@ -105,6 +109,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1905853042.svg",
     rating: 9.2,
     ratingLabel: "Very Good",
+    affiliateLink: "https://www.ionos.com/",
     features: [
       "99.99% uptime",
       "Scale up or down performance fast",
@@ -129,6 +134,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1319764214.svg",
     rating: 9.1,
     ratingLabel: "Very Good",
+    affiliateLink: "https://www.hostgator.com/",
     features: [
       "Many beginner tools + advanced pro features",
       "Intro offer—up to 79% off",
@@ -153,6 +159,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/102462345.svg",
     rating: 8.9,
     ratingLabel: "Very Good",
+    affiliateLink: "https://www.networksolutions.com/",
     features: [
       "World's 1st domain registrar (free domain)",
       "Developer-friendly interface",
@@ -176,6 +183,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/2239547950.svg",
     rating: 8.7,
     ratingLabel: "Good",
+    affiliateLink: "https://www.domain.com/",
     features: [
       "Automatic SSL plan",
       "Free domain with code DOMFREE"
@@ -198,6 +206,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/238189196.svg",
     rating: 8.5,
     ratingLabel: "Good",
+    affiliateLink: "https://www.namecheap.com/",
     features: [
       "Domain name and privacy protection",
       "Free AI website builder"
@@ -221,6 +230,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1603641813.svg",
     rating: 8.2,
     ratingLabel: "Good",
+    affiliateLink: "https://www.dreamhost.com/",
     features: [
       "Free automated site migrations",
       "Custom control panel"
