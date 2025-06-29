@@ -4,7 +4,7 @@ import { Card, CardContent } from '../../components/ui/card'
 import { Badge } from '../../components/ui/badge'
 import Link from 'next/link'
 
-const articles = [
+export const articles = [
   {
     id: 1,
     title: "An Introduction to Web Hosting",

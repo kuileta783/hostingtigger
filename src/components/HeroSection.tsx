@@ -41,7 +41,7 @@ export function HeroSection() {
             <img
               src="https://ext.same-assets.com/394464187/3168125391.jpeg"
               alt="Web hosting professional"
-              className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+              className="rounded-lg shadow-xl w-full"
             />
           </div>
         </div>
