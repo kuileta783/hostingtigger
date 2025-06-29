@@ -3,6 +3,7 @@ import { Footer } from '../../../components/Footer'
 import { Badge } from '../../../components/ui/badge'
 import { articles } from '../page' // Assuming articles data is exported from the parent page
 import Link from 'next/link'
+import type { InferGetStaticPropsType, GetStaticProps } from 'next'
 
 // Define a type for the article object for better type safety
 type Article = {
@@ -13,6 +14,12 @@ type Article = {
   readTime: string;
   date: string;
   slug: string;
+}
+
+export async function generateStaticParams() {
+  return articles.map((article) => ({
+    slug: article.slug,
+  }))
 }
 
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
