@@ -76,6 +76,19 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-4">
+              <img src="/siteground-logo.png" alt="SiteGround" className="h-8" />
+              <div className="flex items-center space-x-1">
+                <span className="text-2xl font-bold text-gray-900">9.6</span>
+                <div className="flex text-yellow-400">
+                  ⭐⭐⭐⭐⭐
+                </div>
+              </div>
+              <a href="https://www.siteground.com/index.htm?afcode=ef020cf3362570ac6b3443e293399ec2" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="sm">Visit Site</Button>
+              </a>
+            </div>
+
+            <div className="flex items-center space-x-4">
               <img src="https://ext.same-assets.com/394464187/1919371494.svg" alt="Hostinger" className="h-8" />
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.5</span>

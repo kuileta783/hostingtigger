@@ -54,6 +54,33 @@ export const hostingProviders = [
   },
   {
     id: 3,
+    name: "SiteGround",
+    logo: "/siteground-logo.png",
+    rating: 9.6,
+    ratingLabel: "Excellent",
+    specialOffer: "Free domain & Professional site transfer with every plan",
+    affiliateLink: "https://www.siteground.com/index.htm?afcode=ef020cf3362570ac6b3443e293399ec2",
+    features: [
+      "Lightning-fast, ultra-secure hosting with AI optimizations",
+      "Google Cloud infrastructure for high-end availability",
+      "Free one-click CDN & daily backups",
+      "24/7 expert support & instant AI assistant"
+    ],
+    pros: [
+      "Top-tier speed与安全性",
+      "AI驱动的性能优化",
+      "免费域名与专业迁站",
+      "客户满意度高，支持优质"
+    ],
+    cons: [
+      "续费价格较高",
+      "部分高级功能需额外付费"
+    ],
+    reviews: 23000,
+    trustpilot: true
+  },
+  {
+    id: 4,
     name: "Hostinger",
     logo: "https://ext.same-assets.com/394464187/1919371494.svg",
     rating: 9.5,
@@ -79,7 +106,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 4,
+    id: 5,
     name: "Wix",
     logo: "https://ext.same-assets.com/394464187/1957570600.svg",
     rating: 9.3,
@@ -104,7 +131,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 5,
+    id: 6,
     name: "Ionos",
     logo: "https://ext.same-assets.com/394464187/1905853042.svg",
     rating: 9.2,
@@ -129,7 +156,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 6,
+    id: 7,
     name: "HostGator",
     logo: "https://ext.same-assets.com/394464187/1319764214.svg",
     rating: 9.1,
@@ -154,7 +181,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 7,
+    id: 8,
     name: "Network Solutions",
     logo: "https://ext.same-assets.com/394464187/102462345.svg",
     rating: 8.9,
@@ -178,7 +205,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 8,
+    id: 9,
     name: "Domain.com",
     logo: "https://ext.same-assets.com/394464187/2239547950.svg",
     rating: 8.7,
@@ -201,7 +228,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 9,
+    id: 10,
     name: "Namecheap",
     logo: "https://ext.same-assets.com/394464187/238189196.svg",
     rating: 8.5,
@@ -225,7 +252,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 10,
+    id: 11,
     name: "DreamHost",
     logo: "https://ext.same-assets.com/394464187/1603641813.svg",
     rating: 8.2,
