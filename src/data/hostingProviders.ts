@@ -58,7 +58,7 @@ export const hostingProviders = [
     logo: "/siteground-logo.png",
     rating: 9.6,
     ratingLabel: "Excellent",
-    specialOffer: "Free domain & professional site transfer with every plan",
+    specialOffer: "Free domain & professional site transfer with every plan. From $2.99/mo. Renews at $17.99/mo.",
     affiliateLink: "https://www.siteground.com/index.htm?afcode=ef020cf3362570ac6b3443e293399ec2",
     features: [
       "Lightning-fast, ultra-secure hosting with AI optimizations",
