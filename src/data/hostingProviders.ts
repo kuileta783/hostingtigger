@@ -55,7 +55,7 @@ export const hostingProviders = [
   {
     id: 3,
     name: "SiteGround",
-    logo: "https://ext.same-assets.com/394464187/1842339827.svg",
+    logo: "/siteground-logo.png",
     rating: 9.6,
     ratingLabel: "Excellent",
     specialOffer: "Free domain & professional site transfer with every plan",

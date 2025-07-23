@@ -76,7 +76,7 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <img src="https://ext.same-assets.com/394464187/1842339827.svg" alt="SiteGround" className="h-8" />
+              <img src="/siteground-logo.png" alt="SiteGround" className="h-8" />
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.6</span>
                 <div className="flex text-yellow-400">
