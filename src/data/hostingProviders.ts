@@ -55,10 +55,10 @@ export const hostingProviders = [
   {
     id: 3,
     name: "SiteGround",
-    logo: "/siteground-logo.png",
+    logo: "https://ext.same-assets.com/394464187/1842339827.svg",
     rating: 9.6,
     ratingLabel: "Excellent",
-    specialOffer: "Free domain & Professional site transfer with every plan",
+    specialOffer: "Free domain & professional site transfer with every plan",
     affiliateLink: "https://www.siteground.com/index.htm?afcode=ef020cf3362570ac6b3443e293399ec2",
     features: [
       "Lightning-fast, ultra-secure hosting with AI optimizations",
@@ -67,14 +67,14 @@ export const hostingProviders = [
       "24/7 expert support & instant AI assistant"
     ],
     pros: [
-      "Top-tier speed与安全性",
-      "AI驱动的性能优化",
-      "免费域名与专业迁站",
-      "客户满意度高，支持优质"
+      "Top-tier speed and security",
+      "AI-powered performance optimization",
+      "Free domain and professional site migration",
+      "Excellent customer support"
     ],
     cons: [
-      "续费价格较高",
-      "部分高级功能需额外付费"
+      "Higher renewal prices",
+      "Some advanced features require extra payment"
     ],
     reviews: 23000,
     trustpilot: true
