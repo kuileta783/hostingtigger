@@ -134,6 +134,11 @@ export function HostingCard({ provider, isEditorChoice }: HostingCardProps) {
               <p className="text-4xl font-bold text-gray-900">{provider.rating}</p>
               <p className="font-semibold text-gray-700">{provider.ratingLabel}</p>
             </div>
+            {provider.specialOffer && /From \$\d+(?:\.\d+)?\/mo/i.test(provider.specialOffer) && (
+              <div className="text-center text-sm text-gray-700">
+                {provider.specialOffer.match(/From \$\d+(?:\.\d+)?\/mo/i)?.[0]}
+              </div>
+            )}
             <a href={provider.affiliateLink} target="_blank" rel="noopener noreferrer" className="w-full">
               <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
                 Visit Site

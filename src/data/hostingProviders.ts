@@ -32,7 +32,7 @@ export const hostingProviders = [
     logo: "/cloudways-logo.png",
     rating: 9.6,
     ratingLabel: "Excellent",
-    specialOffer: "Free 3-day trial. No credit card required.",
+    specialOffer: "Free 3-day trial. From $11/mo. No credit card required.",
     affiliateLink: "https://www.cloudways.com/en/?id=1992365",
     features: [
       "Managed cloud hosting on AWS, GCP, and DigitalOcean",
