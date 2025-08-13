@@ -28,6 +28,31 @@ export const hostingProviders = [
   },
   {
     id: 2,
+    name: "Cloudways",
+    logo: "/cloudways-logo.png",
+    rating: 9.6,
+    ratingLabel: "Excellent",
+    specialOffer: "Free 3-day trial. No credit card required.",
+    affiliateLink: "https://www.cloudways.com/en/?id=1992365",
+    features: [
+      "Managed cloud hosting on AWS, GCP, and DigitalOcean",
+      "1-click staging, backups, and advanced caching",
+      "24/7 expert support and performance monitoring"
+    ],
+    pros: [
+      "Excellent performance and scalability",
+      "Simple control panel with powerful features",
+      "Great for agencies and developers"
+    ],
+    cons: [
+      "Costs can increase as you scale",
+      "Advanced features may require learning curve"
+    ],
+    reviews: 12000,
+    trustpilot: true
+  },
+  {
+    id: 3,
     name: "GoDaddy",
     logo: "https://ext.same-assets.com/394464187/1540425692.svg",
     rating: 9.7,
@@ -53,7 +78,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 3,
+    id: 4,
     name: "SiteGround",
     logo: "/siteground-logo.png",
     rating: 9.6,
@@ -80,7 +105,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 4,
+    id: 5,
     name: "Hostinger",
     logo: "https://ext.same-assets.com/394464187/1919371494.svg",
     rating: 9.5,
@@ -106,7 +131,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 5,
+    id: 6,
     name: "Wix",
     logo: "https://ext.same-assets.com/394464187/1957570600.svg",
     rating: 9.3,
@@ -131,7 +156,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 6,
+    id: 7,
     name: "Ionos",
     logo: "https://ext.same-assets.com/394464187/1905853042.svg",
     rating: 9.2,
@@ -156,7 +181,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 7,
+    id: 8,
     name: "HostGator",
     logo: "https://ext.same-assets.com/394464187/1319764214.svg",
     rating: 9.1,
@@ -181,7 +206,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 8,
+    id: 9,
     name: "Network Solutions",
     logo: "https://ext.same-assets.com/394464187/102462345.svg",
     rating: 8.9,
@@ -205,7 +230,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 9,
+    id: 10,
     name: "Domain.com",
     logo: "https://ext.same-assets.com/394464187/2239547950.svg",
     rating: 8.7,
@@ -228,7 +253,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 10,
+    id: 11,
     name: "Namecheap",
     logo: "https://ext.same-assets.com/394464187/238189196.svg",
     rating: 8.5,
@@ -252,7 +277,7 @@ export const hostingProviders = [
     trustpilot: true
   },
   {
-    id: 11,
+    id: 12,
     name: "DreamHost",
     logo: "https://ext.same-assets.com/394464187/1603641813.svg",
     rating: 8.2,

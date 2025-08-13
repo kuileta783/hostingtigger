@@ -76,6 +76,19 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-4">
+              <img src="/cloudways-logo.png" alt="Cloudways" className="h-8" />
+              <div className="flex items-center space-x-1">
+                <span className="text-2xl font-bold text-gray-900">9.6</span>
+                <div className="flex text-yellow-400">
+                  ⭐⭐⭐⭐⭐
+                </div>
+              </div>
+              <a href="https://www.cloudways.com/en/?id=1992365" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="sm">Visit Site</Button>
+              </a>
+            </div>
+
+            <div className="flex items-center space-x-4">
               <img src="/siteground-logo.png" alt="SiteGround" className="w-[53px] h-[48px]" />
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.6</span>
