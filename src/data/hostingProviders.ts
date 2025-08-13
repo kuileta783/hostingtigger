@@ -57,6 +57,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1540425692.svg",
     rating: 9.7,
     ratingLabel: "Great",
+    specialOffer: "From $5.99/mo.",
     affiliateLink: "https://www.godaddy.com/",
     features: [
       "Reliable 99.9% uptime guaranteed",
@@ -136,6 +137,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1957570600.svg",
     rating: 9.3,
     ratingLabel: "Great",
+    specialOffer: "From $16/mo.",
     affiliateLink: "https://www.wix.com/",
     features: [
       "Unlimited bandwidth",
@@ -161,6 +163,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1905853042.svg",
     rating: 9.2,
     ratingLabel: "Very Good",
+    specialOffer: "From $1.00/mo.",
     affiliateLink: "https://www.ionos.com/",
     features: [
       "99.99% uptime",
@@ -186,6 +189,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1319764214.svg",
     rating: 9.1,
     ratingLabel: "Very Good",
+    specialOffer: "From $2.75/mo.",
     affiliateLink: "https://www.hostgator.com/",
     features: [
       "Many beginner tools + advanced pro features",
@@ -211,6 +215,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/102462345.svg",
     rating: 8.9,
     ratingLabel: "Very Good",
+    specialOffer: "From $9.99/mo.",
     affiliateLink: "https://www.networksolutions.com/",
     features: [
       "World's 1st domain registrar (free domain)",
@@ -235,6 +240,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/2239547950.svg",
     rating: 8.7,
     ratingLabel: "Good",
+    specialOffer: "From $3.75/mo.",
     affiliateLink: "https://www.domain.com/",
     features: [
       "Automatic SSL plan",
@@ -258,6 +264,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/238189196.svg",
     rating: 8.5,
     ratingLabel: "Good",
+    specialOffer: "From $1.98/mo.",
     affiliateLink: "https://www.namecheap.com/",
     features: [
       "Domain name and privacy protection",
@@ -282,6 +289,7 @@ export const hostingProviders = [
     logo: "https://ext.same-assets.com/394464187/1603641813.svg",
     rating: 8.2,
     ratingLabel: "Good",
+    specialOffer: "From $2.59/mo.",
     affiliateLink: "https://www.dreamhost.com/",
     features: [
       "Free automated site migrations",
