@@ -5,6 +5,7 @@ import { HostingList } from '../components/HostingList'
 import { ContentSections } from '../components/ContentSections'
 import { Sidebar } from '../components/Sidebar'
 import { Footer } from '../components/Footer'
+import { VpsPricingTable } from '../components/VpsPricingTable'
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Main content */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 space-y-10">
+              <h2 className="text-2xl font-bold">Live VPS Pricing</h2>
+              <VpsPricingTable />
               <HostingList />
             </div>
 
