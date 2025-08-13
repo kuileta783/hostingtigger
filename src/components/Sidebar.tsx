@@ -24,11 +24,13 @@ export function Sidebar() {
           <h3 className="font-semibold mb-4">Editorial Reviews</h3>
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img
-                src="https://ext.same-assets.com/394464187/1397850068.svg"
-                alt="Bluehost"
-                className="h-8"
-              />
+              <a href="/reviews/bluehost" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://ext.same-assets.com/394464187/1397850068.svg"
+                  alt="Bluehost"
+                  className="h-8"
+                />
+              </a>
               <div className="flex-1">
                 <div className="text-sm font-medium">Bluehost</div>
                 <Link href="/reviews/bluehost" className="text-xs text-teal-600 hover:underline">
@@ -38,11 +40,13 @@ export function Sidebar() {
             </div>
 
             <div className="flex items-center space-x-3">
-              <img
-                src="https://ext.same-assets.com/394464187/1540425692.svg"
-                alt="GoDaddy"
-                className="h-8"
-              />
+              <a href="/reviews/godaddy" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://ext.same-assets.com/394464187/1540425692.svg"
+                  alt="GoDaddy"
+                  className="h-8"
+                />
+              </a>
               <div className="flex-1">
                 <div className="text-sm font-medium">GoDaddy</div>
                 <Link href="/reviews/godaddy" className="text-xs text-teal-600 hover:underline">
@@ -52,11 +56,13 @@ export function Sidebar() {
             </div>
 
             <div className="flex items-center space-x-3">
-              <img
-                src="https://ext.same-assets.com/394464187/1319764214.svg"
-                alt="HostGator"
-                className="h-8"
-              />
+              <a href="/reviews/hostgator" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://ext.same-assets.com/394464187/1319764214.svg"
+                  alt="HostGator"
+                  className="h-8"
+                />
+              </a>
               <div className="flex-1">
                 <div className="text-sm font-medium">HostGator</div>
                 <Link href="/reviews/hostgator" className="text-xs text-teal-600 hover:underline">

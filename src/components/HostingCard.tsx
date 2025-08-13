@@ -55,11 +55,21 @@ export function HostingCard({ provider, isEditorChoice }: HostingCardProps) {
             <span className="text-3xl font-bold text-gray-400">
               {provider.id.toString().padStart(2, '0')}
             </span>
-            <img
-              src={provider.logo}
-              alt={provider.name}
-              className="h-12 w-auto"
-            />
+            {provider.affiliateLink ? (
+              <a href={provider.affiliateLink} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={provider.logo}
+                  alt={provider.name}
+                  className="h-12 w-auto"
+                />
+              </a>
+            ) : (
+              <img
+                src={provider.logo}
+                alt={provider.name}
+                className="h-12 w-auto"
+              />
+            )}
           </div>
 
           <div className="text-right">

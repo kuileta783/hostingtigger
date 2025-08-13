@@ -52,7 +52,9 @@ export function HeroSection() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex items-center space-x-4">
-              <img src="https://ext.same-assets.com/394464187/1540425692.svg" alt="GoDaddy" className="h-8" />
+              <a href="https://www.godaddy.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://ext.same-assets.com/394464187/1540425692.svg" alt="GoDaddy" className="h-8" />
+              </a>
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.7</span>
                 <div className="flex text-yellow-400">
@@ -65,7 +67,9 @@ export function HeroSection() {
             <Badge className="bg-teal-100 text-teal-800 px-3 py-1">We Recommend</Badge>
 
             <div className="flex items-center space-x-4">
-              <img src="https://ext.same-assets.com/394464187/1397850068.svg" alt="Bluehost" className="h-8" />
+              <a href="https://www.bluehost.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://ext.same-assets.com/394464187/1397850068.svg" alt="Bluehost" className="h-8" />
+              </a>
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.9</span>
                 <div className="flex text-yellow-400">
@@ -76,7 +80,9 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <img src="/cloudways-logo.png" alt="Cloudways" className="h-8" />
+              <a href="https://www.cloudways.com/en/?id=1992365" target="_blank" rel="noopener noreferrer">
+                <img src="/cloudways-logo.png" alt="Cloudways" className="h-8" />
+              </a>
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.6</span>
                 <div className="flex text-yellow-400">
@@ -89,7 +95,9 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <img src="/siteground-logo.png" alt="SiteGround" className="w-[53px] h-[48px]" />
+              <a href="https://www.siteground.com/index.htm?afcode=ef020cf3362570ac6b3443e293399ec2" target="_blank" rel="noopener noreferrer">
+                <img src="/siteground-logo.png" alt="SiteGround" className="w-[53px] h-[48px]" />
+              </a>
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.6</span>
                 <div className="flex text-yellow-400">
@@ -102,7 +110,9 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <img src="https://ext.same-assets.com/394464187/1919371494.svg" alt="Hostinger" className="h-8" />
+              <a href="https://www.hostinger.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://ext.same-assets.com/394464187/1919371494.svg" alt="Hostinger" className="h-8" />
+              </a>
               <div className="flex items-center space-x-1">
                 <span className="text-2xl font-bold text-gray-900">9.5</span>
                 <div className="flex text-yellow-400">
